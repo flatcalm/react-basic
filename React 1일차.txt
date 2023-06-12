@@ -1,0 +1,48 @@
+nodejs - lts 버전으로 다운로드
+auto~~~ 체크
+설치 후 cmd창 esc 눌러서 꺼버리기 (powershell도 아니오 눌러서 끔)
+cmd -> node -v
+설치 잘 되었는지 확인
+
+cd C:\
+cd work
+mkdir react-practice
+cd react-practice
+npm install -g create-react-app -> 리액트 설치 명령어 -g는 전역 설정
+npx create-react-app react-basic -> npx create-react-app (프로젝트명) 프로젝트 생성문
+
+git 레파지토리 생성
+git bash로 remote 추가
+바로 master로 push 진행
+
+readme 파일 작성
+npm start -> 프로젝트 실행해보기
+
+리액트 기본 알아보기
+
+
+리액트에서 화면을 구성하는 부분 -> 컴포넌트
+컴포넌트는 대문자로 작성하는 것이 관례.
+
+컴포넌트 함수는 반드시 1개만 리턴할 수 있다.
+2가지를 한꺼번에 리턴하고 싶다면 다른 태그로 감싸줘야함.
+의미 없는 태그가 너무 많아지는게 싫다면 fragment를 사용.
+fragment -> 여러 개의 태그를 감싸는데 사용. -> 
+<> 태그들 </> 형식으로 작성.
+
+
+
+오후
+폴더 생성
+vs code 확장 탭(Plugin) - react 검색 - ES7+ React/Redux/React-Native snippets 설치
+auto close 검색 -  Auto Close Tag 설치
+
+rafce 자동완성 이용하기
+
+이벤트와 스타일 활용하기
+JSX에서 이벤트를 작성할 때는 소문자가 아니라 카멜 케이스로 작성
+자바스크립트 함수를 호출할 때는 {함수명}를 사용해 작성
+ex) onchange -> onChange
+
+Props 활용하기
+문자열은 괄호 생략 가능
